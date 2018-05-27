@@ -10,7 +10,7 @@ class Song
       self.artist = artist
     end
     if genre != nil
-      self.genre =  artist
+      self.genre = genre
     end
   end
 

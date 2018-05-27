@@ -40,7 +40,7 @@ class Artist
   def genres
     songs.each(&:genre)
       # self.genre << song
-    end
+    
   end
 
 end

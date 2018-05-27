@@ -27,7 +27,9 @@ class Genre
     genre
   end
 
-  def artists
+  def genres
+    songs.map(&:genre).uniq
+  end
 
 
   end

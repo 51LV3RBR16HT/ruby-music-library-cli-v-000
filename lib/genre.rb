@@ -1,8 +1,8 @@
 class Genre
 
-  attr_accessor :name, :songs, :artist
-
   extend Concerns::Findable
+
+  attr_accessor :name, :songs, :artist
 
   @@all =[]
 

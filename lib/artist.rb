@@ -1,7 +1,7 @@
 class Artist
 
-  attr_accessor :name, :genre
-  attr_reader :songs
+  attr_accessor :name, :genre, :songs
+  # attr_reader :songs
 
   @@all =[]
 
@@ -38,7 +38,7 @@ class Artist
   end
 
   def genres
-    songs.map(&:genre).uniq 
+    songs.map(&:genre).uniq
 
 
   end

@@ -33,5 +33,4 @@ class Genre
     songs.map(&:artist).uniq
   end
 
-
 end

@@ -1,6 +1,6 @@
 class Artist
 
-  attr_accessor :name, :genre
+  attr_accessor :name, :genres
   attr_reader :songs
 
   @@all =[]
@@ -39,7 +39,7 @@ class Artist
 
   def genres
     songs.each(&:genre)
-      self.genre << song
+      # self.genre << song
     end
   end
 

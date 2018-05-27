@@ -38,8 +38,8 @@ class Artist
   end
 
   def genres
-    songs.each(&:genre)
-      # self.genre << song
+    songs.map(&:genre).uniq 
+
 
   end
 

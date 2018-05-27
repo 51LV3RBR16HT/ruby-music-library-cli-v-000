@@ -39,7 +39,7 @@ class Artist
 
   def genres
     songs.each.collect do |song|
-      self.songs << song
+      self.genre << song
     end
   end
 

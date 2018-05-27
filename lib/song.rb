@@ -10,6 +10,7 @@ class Song
     if artist != nil
       @artist = artist
     end
+    artist 
   end
 
   def artist=(artist)

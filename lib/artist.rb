@@ -38,8 +38,8 @@ class Artist
   end
 
   def genres
-    song.each.collect do |songs|
-      songs
+    songs.each.collect do |song|
+      @songs << song
     end
   end
 

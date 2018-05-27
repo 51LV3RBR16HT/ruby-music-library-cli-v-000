@@ -1,6 +1,6 @@
 class Artist
 
-  attr_accessor :name, :genre
+  attr_accessor :name, :genres
   attr_reader :songs
 
   @@all =[]
@@ -14,12 +14,12 @@ class Artist
     @@all
   end
 
-  def genre
-    @genre
+  def genres
+    @genres
   end
 
-  def genre=(genre)
-    @genre = genre
+  def genres=(genres)
+    @genres = genres
   end
 
   def add_song(song)

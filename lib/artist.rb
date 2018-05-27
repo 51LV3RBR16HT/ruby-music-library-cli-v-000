@@ -38,7 +38,10 @@ class Artist
   end
 
   def genres
-    songs.map(&:genre).uniq
+    songs.map(&:genre).uniq # in place of .tap -- you are tapping into the 
+    # songs.map, and returning the genre for each song in the array.
+    # .map will return a new array.
+    #.uniq will remove duplicate entries.
   end
 
 end

@@ -14,9 +14,9 @@ class Artist
     @@all
   end
 
-  def genre
-    @genre
-  end
+  # def genre
+  #   @genre
+  # end
 
   def genre=(genre)
     @genre = genre
